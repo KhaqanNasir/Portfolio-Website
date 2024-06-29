@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#headerDiv {
+    background-color: white;
+    padding: 20px 60px 20px 60px;
+}
+#logo {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    font-weight: bolder;
+    padding-right: 630px;
+}
+#buttonCV {
+    background-color: rgb(204, 255, 37);
+    padding: 12px 2px 12px 2px;
+    width: 130px;
+    border-radius: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 17px;
+    border-style:none;
+    font-weight: 500;
+}
+a {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 17px;
+    text-decoration: none;
+    color: black;
+    margin: 20px;
+    font-weight: 500;
+
+}
+Body {
+    background-color: rgb(17, 16, 16);
+}
