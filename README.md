@@ -9,7 +9,8 @@
 
 <h1>🌟 Portfolio Website 🌟</h1>
 
-<p class="center">Welcome to Muhammad Khaqan Nasir's Portfolio Website repository! This project features a sleek and responsive portfolio template designed to showcase your work, skills, and projects in a professional manner.</p>
+<p class="center">Welcome to Muhammad Khaqan Nasir's Portfolio Website repository! <br>
+    This project features a sleek and responsive portfolio template designed to showcase your work, skills, and projects in a professional manner.</p>
 
 <div class="screenshot">
     <img src="screenshot.png" alt="Portfolio Screenshot">
