@@ -5,9 +5,10 @@
 header{
     display: flex;
     background-color: rgba(245, 245, 245, 0.808);
-    max-width: 100vw;
+    width: 100%;
     height: 80px;
-    position: sticky;
+    box-sizing: border-box;
+
 }
 .nav-logo{
     font-size: 2.5rem;
@@ -53,7 +54,9 @@ header{
     background-color: rgba(200, 200, 23, 0.818);
 }
 .nav-button button:hover{
-    transform: translateY(-2px);
+    color: whitesmoke;
+    cursor: pointer;
+    background-color: rgb(25, 24, 24);
 }
 body{
     background-color: rgb(25, 24, 24);
@@ -136,7 +139,9 @@ body{
     
 }
 .home-div1 button:hover{
-    transform: translateY(-2px);
+    color: whitesmoke;
+    cursor: pointer;
+    background-color: rgba(49, 47, 47, 0.833)
 }
 .home-div2{
     margin-top: -22rem;
@@ -148,7 +153,6 @@ body{
 
 
 }
-
 .home-div2 img{
     height: 29rem;
     margin-left: -7.5rem;
@@ -160,10 +164,144 @@ body{
     background-color: rgba(200, 200, 23, 0.818);
     display: flex;
     margin-left: 58.3rem;
+    margin-top: -2.5rem;
     border: 4px whitesmoke solid;
     border-radius: 5px;
     justify-content: center;
     align-items: center;
     justify-content: space-evenly;
+    position:  relative;
+    background-position:2rem;
 }
 
+.contactdiv{
+    min-width: 100%;
+    height: 100vh;
+    background-color: rgba(49, 47, 47, 0.833);
+}
+.formheading{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.p1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.5rem;
+    font-weight: 550;
+    color: rgba(200, 200, 23, 0.818);
+    margin-top: 40px;
+}
+.p2{
+    color: rgba(245, 245, 245, 0.808);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-top: 110px;
+    margin-left: -9.5rem;
+}
+
+.input{
+    background-color: rgb(25, 24, 24);
+    width: 50%;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    padding: 15px;
+    font-size: 1rem;
+    color: whitesmoke;
+    border: 2px rgba(200, 200, 23, 0.818) solid;
+    margin-left: 23%;
+}
+#email{
+    animation: email-an 2s ease-in-out normal forwards;
+}
+@keyframes email-an {
+    from{
+        opacity: 0;
+        visibility: hidden;
+        margin-left: -10rem;
+    }
+    to{
+        opacity: 1;
+        visibility: visible;
+    }
+    
+}
+#phone{
+    animation: phone-an 2s ease-in-out normal forwards;
+}
+@keyframes phone-an {
+    from{
+        opacity: 0;
+        visibility: hidden;
+        margin-left: -10rem;
+    }
+    to{
+        opacity: 1;
+        visibility: visible;
+    }
+    
+}
+#username{
+    animation: user-an 2s ease-in-out normal forwards;
+}
+@keyframes user-an {
+    from{
+        opacity: 0;
+        visibility: hidden;
+        margin-left: 50rem;
+    }
+    to{
+        opacity: 1;
+        visibility: visible;
+    }
+    
+}
+#message{
+    animation: message-an 2s ease-in-out normal forwards;
+}
+@keyframes message-an {
+    from{
+        opacity: 0;
+        visibility: hidden;
+        margin-left: 50rem;
+    }
+    to{
+        opacity: 1;
+        visibility: visible;
+    }
+    
+}
+.contactbutton{
+    background-color: rgba(200, 200, 23, 0.818);
+    font-size: 1.5rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 8rem;
+    text-align: center;
+    border-radius: 25px;
+    border: none;
+    padding: 0.7rem;
+    font-weight: 500;
+    margin-inline-start: 40rem;
+    margin-top: 1.5rem;
+    animation: con-button 4s ease-in-out normal forwards;
+
+}
+@keyframes con-button {
+    from{
+        opacity: 0;
+        visibility: hidden;
+    }
+    to{
+        opacity: 1;
+        visibility:visible;
+    }
+    
+}
+.contactbutton:hover{
+    color: whitesmoke;
+    cursor: pointer;
+    background-color: rgb(25, 24, 24);
+}
