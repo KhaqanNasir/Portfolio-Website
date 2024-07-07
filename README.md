@@ -13,7 +13,7 @@
     This project features a sleek and responsive portfolio template designed to showcase your work, skills, and projects in a professional manner.</p>
 
 <div class="screenshot">
-    <img src="screenshot" alt="Portfolio Screenshot">
+    <img src="screenshot.png" alt="Portfolio Screenshot">
 </div>
 
 <div class="features">
