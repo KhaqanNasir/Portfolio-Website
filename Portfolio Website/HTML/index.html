@@ -13,23 +13,23 @@
 </head>
 <body>
     <nav>
-        <div class="container">
+        <div class="container" id="home1">
             <div class="row">
                 <div class="logo col-5"><p id="nav-p1">Khaqan</p><p>Nasir</p></div>
                 <div class="tags col-7">
-                    <li><a>Home</a></li>
-                    <li><a>About</a></li>
-                    <li><a>Services</a></li>
-                    <li><a>Portfolio</a></li>
-                    <li><a>Contact</a></li>
-                    <button class="nav-btn">Download CV</button>
+                    <li><a href="#home1">Home</a></li>
+                    <li><a href="#about1">About</a></li>
+                    <li><a href="#services1">Services</a></li>
+                    <li><a href="#port1">Portfolio</a></li>
+                    <li><a href="#con1">Contact</a></li>
+                    <li><a class="nav-btn" download href="/CV/CV.pdf" class="btn-download">Download CV</a></li>
                 </div>
             </div>
         </div>
     </nav>
 
     <div class="home container-fluid">
-        <div class="container">
+        <div class="container gen-animation">
             <div class="row">
                 <div class="col-xl-5 col-lg-6 col-md-12 home-div1">
                     <p id="p1">Hello, I'm</p>
@@ -38,13 +38,13 @@
                     <button id="home-btn">Let's Work</button>
                 </div>
                 <div class="offset-2 col-xl-5 col-lg-6 col-md-12 home-div2">
-                    <img src="/Pictures/Profile_Pic.png">
+                    <img src="/Pictures/Profile_Pic.png" id="h-img">
                     <div class="icons">
-                        <a href="#"><img src="/Icons/Facebook.png"></a>
-                        <a href="#"><img src="/Icons/Instagram.png"></a>
-                        <a href="#"><img src="/Icons/Linkedin.png"></a>
-                        <a href="#"><img src="/Icons/Github.png"></a>
-                        <a href="#"><img src="/Icons/Twitter.png"></a>
+                        <a href="https://www.linkedin.com/in/khaqan-nasir/" target="_blank"><img src="/Icons/Linkedin.png"></a>
+                        <a href="https://github.com/KhaqanNasir" target="_blank"><img src="/Icons/Github.png"></a>
+                        <a href="https://www.instagram.com/khaqannasir_" target="_blank"><img src="/Icons/Instagram.png"></a>
+                        <a href="https://www.facebook.com/people/Muhammad-Khaqan-Nasir/" target="_blank"><img src="/Icons/Facebook.png"></a>
+                        <a href="https://twitter.com/@hunter_khaqan" target="_blank"><img src="/Icons/Twitter.png"></a>
                          
                     </div>
                 </div>
@@ -52,8 +52,8 @@
         </div>
     </div>
 
-    <div class="about container-fluid">
-        <div class="container">
+    <div class="about container-fluid" id="about1">
+        <div class="container gen-animation">
             <div class="row">
                <div class="about-div1 col-xl-6 col-lg-6 col-md-12">
                 <p1 id="p4">About Me</p1><br>
@@ -61,10 +61,11 @@
                 <img src="/Pictures/About_pic.png"> 
                </div>
                <div class="about-div2 col-xl-6 col-lg-6 col-md-12">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, voluptate eos. Incidunt quia numquam aperiam, amet illo dolorem. Voluptatem tempore porro pariatur, impedit suscipit et nulla cupiditate reprehenderit ipsa repellendus.
+                Welcome to my professional portfolio website. I am a 20-year-old BSCS student from COMSATS, passionate about creating intuitive and dynamic user experiences. My journey in web development has been both challenging and rewarding, as I constantly strive to improve my craft and stay updated with the latest technologies. I have a keen interest in .NET and am committed to learning on a daily basis, staying fully motivated throughout my journey.
                 <br><br>
-                Vel laborum soluta iste tempore totam. Reiciendis ut sed cupiditate. Asperiores dolores, animi eaque sed, tempora nobis magnam accusantium tenetur at non voluptate pariatur dolorum laborum, quidem rerum porro molestiae?
+                Throughout my academic career, I have successfully completed various projects, demonstrating my ability to adapt and excel. Each project has helped me grow and refine my skills, ensuring that I deliver high-quality results. I am excited to share my work with you and look forward to potential collaborations.
                 <br><br>
+                
                 <div class="about-div3">
                 <p id="p6">Personal Information</p>
                 <p>Name &nbsp  &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Muhammad Khaqan Nasir</p>
@@ -73,7 +74,7 @@
 
                 <p>Phone &nbsp  &nbsp &nbsp &nbsp  &nbsp  &nbsp &nbsp &nbsp  &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp +92 309 1111977</p>
 
-                <button class="about-btn">Download CV</button>
+                <a class="about-btn" download href="/CV/CV.pdf" class="btn-download">Download CV</a>
                 <br><br><br><br><br><br>
                 </div>
                </div>
@@ -81,76 +82,84 @@
         </div>
     </div>
 
-    <div class="services container-fluid">
-        <div class="container">
+    <div class="services container-fluid" id="services1">
+        <div class="container gen-animation">
             <div class="row">
                 <div class="ser-div1 col-12">
                     <p1 id="p7">Services</p1><br>
                     <p2 id="p8">What I do For My Client</p2>
                 </div>
-                <div class="ser-div2 col-xl-5 col-lg-5 col-md-12">
+                <div class="ser-div2 col-xl-5 col-lg-5 col-md-12 col-sm-12">
                     <img src="/Icons/webdev.png"><br><br>
                     <h4>Web development</h4>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod hic, maxime minima nesciunt repellendus voluptatum veritatis, magnam tenetur obcaecati animi eius aliquid quae. Soluta quo asperiores mollitia assumenda eaque! Aliquid!</p>
+                    <p>I offer professional web development services specializing in .NET. With a strong focus on building robust and scalable applications, I ensure top-quality performance and security. My expertise includes creating user-friendly interfaces and integrating advanced functionalities to meet your business needs.</p>
                 </div>
-                <div class="ser-div2 col-xl-5 col-lg-5 col-md-12 offset-2">
+                <div class="ser-div2 col-xl-5 col-lg-5 col-md-12 offset-2 col-sm-12">
                     <img src="/Icons/appdev.png"><br><br>
                     <h4>App development</h4>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod hic, maxime minima nesciunt repellendus voluptatum veritatis, magnam tenetur obcaecati animi eius aliquid quae. Soluta quo asperiores mollitia assumenda eaque! Aliquid!</p>
+                    <p>I provide expert app development services, focusing on creating high-performance and intuitive applications. My skills encompass designing seamless user experiences and implementing cutting-edge technologies. I ensure that every app meets your specific requirements and delivers exceptional value.</p>
+
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="skills container-fluid">
-        <div class="container">
+    <div class="skills container-fluid" id="port1">
+        <div class="container gen-animation">
             <div class="row">
                 <div class="skill-div1 col-12">
                     <p1 id="p7">Skills</p1><br>
                     <p2 id="p8">My Skills</p2>
                 </div>
 
-                <div class="container">
+                <div class="container gen-animation">
                     <div class="row">
-                        <div class="skill-div2 col-lg-3 col-xl-3 col-md-4 col-sm-2">
+                        <div class="skill-div2 col-lg-4 col-xl-4 col-md-3 col-sm-1">
                             <img src="/Icons/html.png">
                             <h3>HTML</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate mollitia libero, maiores provident ratione cum veritatis natus quam incidunt? Sapiente quibusdam eligendi animi explicabo inventore voluptatibus dolorum asperiores quisquam! Illum?</p>
+                            <p>I possess advanced skills in HTML5, enabling me to create structured, responsive, and semantic web pages that enhance user experiences.</p>
+
                         </div>
-                        <div class="skill-div2 col-lg-3 col-xl-3 col-md-4 col-sm-2">
+                        <div class="skill-div2 col-lg-4 col-xl-4 col-md-3 col-sm-1">
                             <img src="/Icons/css.png">
                             <h3>CSS</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate mollitia libero, maiores provident ratione cum veritatis natus quam incidunt? Sapiente quibusdam eligendi animi explicabo inventore voluptatibus dolorum asperiores quisquam! Illum?</p>
+                            <p>My proficiency in CSS allows me to design visually appealing, responsive, and user-friendly web interfaces with precise styling and layout techniques.</p>
+
                         </div>
-                        <div class="skill-div2 col-lg-3 col-xl-3 col-md-4 col-sm-2">
+                        <div class="skill-div2 col-lg-4 col-xl-4 col-md-3 col-sm-1">
                             <img src="/Icons/javascript.png">
                             <h3>Java Script</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate mollitia libero, maiores provident ratione cum veritatis natus quam incidunt? Sapiente quibusdam eligendi animi explicabo inventore voluptatibus dolorum asperiores quisquam! Illum?</p>
+                            <p>My expertise in JavaScript enables me to create dynamic, interactive, and efficient web applications that enhance user engagement and functionality.</p>
+
                         </div>
-                        <div class="skill-div2 col-lg-3 col-xl-3 col-md-4 col-sm-2">
+                        <div class="skill-div2 col-lg-4 col-xl-4 col-md-3 col-sm-1">
                             <img src="/Icons/git.png">
                             <h3>Git</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate mollitia libero, maiores provident ratione cum veritatis natus quam incidunt? Sapiente quibusdam eligendi animi explicabo inventore voluptatibus dolorum asperiores quisquam! Illum?</p>
+                            <p>I have strong skills in Git and GitHub, allowing me to efficiently manage version control, collaborate on projects, and maintain a robust codebase.</p>
+
                         </div>
-                        <div class="skill-div2 col-lg-3 col-xl-3 col-md-4 col-sm-2">
+                        <div class="skill-div2 col-lg-4 col-xl-4 col-md-3 col-sm-1">
                             <img src="/Icons/csharp.png">
                             <h3>C Sharp</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate mollitia libero, maiores provident ratione cum veritatis natus quam incidunt? Sapiente quibusdam eligendi animi explicabo inventore voluptatibus dolorum asperiores quisquam! Illum?</p>
+                           <p>My proficiency in C# enables me to develop reliable, scalable, and high-performance applications for a variety of platforms and purposes.</p>
+
                         </div>
-                        <div class="skill-div2 col-lg-3 col-xl-3 col-md-4 col-sm-2">
+                        <div class="skill-div2 col-lg-4 col-xl-4 col-md-3 col-sm-1">
                             <img src="/Icons/dotnet.png">
                             <h3>.NET</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate mollitia libero, maiores provident ratione cum veritatis natus quam incidunt? Sapiente quibusdam eligendi animi explicabo inventore voluptatibus dolorum asperiores quisquam! Illum?</p>
+                            <p>I am skilled in .NET framework, proficient in developing robust and scalable applications with a focus on performance, security, and modern software architecture.</p>
                         </div>
-                        <div class="skill-div2 col-lg-3 col-xl-3 col-md-4 col-sm-2">
+                        <div class="skill-div2 col-lg-4 col-xl-4 col-md-3 col-sm-1">
                             <img src="/Icons/bootstrap.png">
                             <h3>Bootstrap</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate mollitia libero, maiores provident ratione cum veritatis natus quam incidunt? Sapiente quibusdam eligendi animi explicabo inventore voluptatibus dolorum asperiores quisquam! Illum?</p>
+                            <p>I possess advanced skills in Bootstrap 5, allowing me to create responsive and visually appealing web interfaces efficiently.</p>
+
                         </div>
-                        <div class="skill-div2 col-lg-3 col-xl-3 col-md-4 col-sm-2">
+                        <div class="skill-div2 col-lg-5 col-xl-4 col-md-3 col-sm-1">
                             <img src="/Icons/mysql.png">
                             <h3>MY SQL</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate mollitia libero, maiores provident ratione cum veritatis natus quam incidunt? Sapiente quibusdam eligendi animi explicabo inventore voluptatibus dolorum asperiores quisquam! Illum?</p>
+                            <p>I have strong skills in MySQL, enabling me to design and manage relational databases efficiently, ensuring data integrity and optimal performance.</p>
+
                             <br><br><br>
                         </div>
 
@@ -161,9 +170,9 @@
         </div>
     </div>
 
-    <div class="contact container-fluid">
-        <div class="container">
-            <div class="row">
+    <div class="contact container-fluid" id="con1">
+        <div class="container gen-animation">
+            <div class="row ">
                 <div class="con-div1">
                     <p1 id="con-p1">Contact</p1><br>
                     <p2 id="con-p2">Get in Touch</p2>
