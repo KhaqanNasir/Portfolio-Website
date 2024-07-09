@@ -332,15 +332,8 @@ footer{
     *{
         text-align: center;
     }
-    #h-img{
-        height: 300px;
-    }
     .icons{
         width: 300px;
-    }
-
-    .about-div1 img{
-        height: 200px;
     }
     .tags{
         visibility: hidden;
