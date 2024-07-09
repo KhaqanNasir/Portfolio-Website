@@ -215,7 +215,7 @@ nav{
 }
 .services{
     background-color: #272626;
-    height: 100vh;
+    height: 100%;
 }
 .skills{
     background-color: #161514;
@@ -254,7 +254,7 @@ nav{
     padding-top: 80px;
 }
 .con-div2 input{
-  width: 60%;
+  width: 70%;
   background-color: #161514;
   height: 70px;
   padding: 25px;
@@ -304,6 +304,7 @@ footer{
 .ser-div1{
     text-align: center;
     padding-top: 50px;
+    margin-bottom: 100px;
 }
 .ser-div2 p{
     color: whitesmoke;
@@ -325,4 +326,23 @@ footer{
     border: 2px solid #A56238;
     border-radius: 50%;
     padding: 10px;
+}
+
+@media screen and (max-width:800px){
+    *{
+        text-align: center;
+    }
+    #h-img{
+        height: 300px;
+    }
+    .icons{
+        width: 300px;
+    }
+
+    .about-div1 img{
+        height: 200px;
+    }
+    .tags{
+        visibility: hidden;
+    }
 }
